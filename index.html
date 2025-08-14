@@ -1,0 +1,244 @@
+<!-- This is the main HTML file for the portfolio website. It defines the structure and content of the pages. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <meta name="description" content="Personal portfolio of Priyanshu Goyal, a passionate Web Developer and Designer.">
+    <title>Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><i class='bx bxs-report' ></i> Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section Design -->
+     <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Priyanshu Goyal</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+
+            <div class="social-media">
+            <a href="https://www.facebook.com/share/1Fo5iVrrd8/" target="_blank"><i class='bx bxl-facebook' ></i></a>
+            <a href="https://www.instagram.com/mr._priyanshu_goyal?igsh=MXVzYnBxZXZxNDlldQ==" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="https://www.linkedin.com/in/priyanshu-goyal-710b1a294/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://github.com/Priyanshu8839" target="_blank"><i class='bx bxl-github' ></i></a>
+            </div>
+            <a href="documents/Priyanshu_Resume.pdf" target="_blank" class="btn" id="download-resume-btn" download>
+                <span class="btn-progress"></span>
+                <span class="btn-text">Download Resume</span>
+            </a>
+        </div>
+        <div class="home-img">
+            <img src="images/home.png" alt="Priyanshu Goyal profile picture">
+        </div>
+     </section>
+
+    <!-- About Section Design -->
+      <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.png" alt="Priyanshu Goyal profile picture">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>I'm a motivated BCA student specializing in Cloud Computing at SAGE University, Bhopal (Graduating 2026), with a keen interest in building scalable, cloud-enabled solutions. I’ve gained hands-on experience in AWS services, IoT-based projects, and web development through academic and competitive technical projects.</p>
+            <a href="#" class="btn read-more-btn">Read More</a>
+            <div class="modal-details" style="display: none;">
+                <h2>More About Me</h2>
+                <p>I'm a motivated BCA student specializing in Cloud Computing at SAGE University, Bhopal (Graduating 2026), with a keen interest in building scalable, cloud-enabled solutions. I’ve gained hands-on experience in AWS services, IoT-based projects, and web development through academic and competitive technical projects.</p>
+                <p>I'm passionate about leveraging cloud and IoT technologies to solve real-world problems and continuously improve my skills through hackathons and innovation challenges.</p>
+                <p><b>Technical Skills:</b> AWS (EC2, S3, RDS, VPC, IAM), IoT, PHP, HTML, CSS, MySQL, GitHub, XAMPP.</p>
+                <p><b>Soft Skills:</b> Leadership, Time Management, Problem Solving.</p>
+            </div>
+       </div>
+      </section>
+
+    <!-- Skills Section Design -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+            <div class="skill-item">
+                <div class="skill-info">
+                    <p>HTML</p>
+                    <p>80%</p>
+                </div>
+                <div class="progress-line"><span data-progress="80%"></span></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info">
+                    <p>CSS</p>
+                    <p>70%</p>
+                </div>
+                <div class="progress-line"><span data-progress="70%"></span></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info">
+                    <p>JavaScript</p>
+                    <p>50%</p>
+                </div>
+                <div class="progress-line"><span data-progress="50%"></span></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info">
+                    <p>PHP</p>
+                    <p>60%</p>
+                </div>
+                <div class="progress-line"><span data-progress="60%"></span></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info">
+                    <p>My-SQL</p>
+                    <p>50%</p>
+                </div>
+                <div class="progress-line"><span data-progress="50%"></span></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info">
+                    <p>AWS</p>
+                    <p>40%</p>
+                </div>
+                <div class="progress-line"><span data-progress="40%"></span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section Design -->
+      <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="service-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Design and develop responsive websites and platforms using HTML, CSS, PHP, MySQL, and MongoDB with tools like XAMPP and PhpMyAdmin.</p>
+                <a href="#" class="btn read-more-btn">Read More</a>
+                <div class="modal-details" style="display: none;">
+                    <h2>Web Development Services</h2>
+                    <p>We create modern, responsive websites and platforms tailored to your needs using proven technologies.</p>
+                    <p><b>Tech Stack:</b> <br> <b>&bull; Frontend:</b>HTML5, CSS3, JavaScript <br> <b>&bull; Backend:</b>PHP <br> <b>&bull; Databases:</b>MySQL, MongoDB <br> <b>&bull; Tools:</b>XAMPP, PhpMyAdmin, GitHub <br> From business landing pages to fully functional platforms like startup portals or healthcare dashboards, we deliver user-focused, secure, and scalable web solutions.</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <i class='bx bx-cloud'></i> 
+                <h3>Cloud Solutions (AWS)</h3>
+                <p>Deploy, scale, and manage applications using AWS services like EC2, S3, RDS, IAM, and VPC for optimized performance and security!</p>
+                <a href="#" class="btn read-more-btn">Read More</a>
+                <div class="modal-details" style="display: none;">
+                    <h2>Cloud Solutions (AWS) Services</h2>
+                    <p>We offer end-to-end cloud solutions using Amazon Web Services (AWS) to help individuals and startups deploy, scale, and manage applications efficiently.</p>
+                    <p><b>What we provide:</b> <br> <b>&bull; Virtual Servers (EC2):</b>Launch and manage scalable computing power. <br> <b>&bull; Object Storage (S3):</b>Securely store and retrieve data for websites and apps. <br> <b>&bull; Databases (RDS):</b>Set up and manage SQL databases with high availability. <br> <b>&bull; Identity & Access (IAM):</b>Configure secure access control for your cloud resources. <br> Whether it's building a cloud-native app or migrating your existing system to AWS, we ensure performance, cost optimization, and security.</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <i class='bx bx-chip'></i> 
+                <h3>IoT Integration</h3>
+                <p>Build smart, connected systems for automation, remote monitoring, and data analytics using IoT sensors and microcontrollers.</p>
+                <a href="#" class="btn read-more-btn">Read More</a>
+                <div class="modal-details" style="display: none;">
+                    <h2>IoT Integration Services</h2>
+                    <p>We build smart IoT systems that enable automation, monitoring, and intelligent data collection for various environments like homes, health, or industry.</p>
+                    <p><b>What we offer:</b> <br>&bull; Integration of microcontrollers and sensors (e.g., temperature, heart rate, motion). <br>&bull; Remote control and monitoring via mobile apps, Google Assistant, or Alexa.</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <i class='bx bx-sitemap'></i>  
+                <h3>Tech Consultation for Projects</h3>
+                <p>Provide guidance and technical support for academic or personal tech projects related to cloud, IoT, and web technologies.</p>
+                <a href="#" class="btn read-more-btn">Read More</a>
+                <div class="modal-details" style="display: none;">
+                    <h2>Tech Consultation for Projects Services</h2>
+                    <p>Need help bringing your tech idea to life? We provide personalized project consultation for students, startups, and tech enthusiasts.</p>
+                    <p><b>We help with:</b> <br>&bull; Project ideation and planning. <br>&bull; Choosing the right tech stack (cloud, IoT, or web). <br>&bull; Debugging and deployment support. <br>&bull; Academic project mentorship (IEEE paper, prototype, presentations, etc.). <br>Whether you're stuck on code or need a project partner, we offer the support to help you succeed.</p>
+                </div>
+            </div>
+        </div>
+     </section>
+
+    <!-- Contact Section Design -->
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me!</span></h2>
+
+            <form id="contact-form">
+                <div class="input-box">
+                    <label for="full-name" class="visually-hidden">Full Name</label>
+                    <input type="text" id="full-name" name="name" placeholder="Your Name" required>
+                    <label for="email" class="visually-hidden">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="input-box">
+                    <label for="mobile-number" class="visually-hidden">Mobile Number</label>
+                    <input type="tel" id="mobile-number" name="mobile" placeholder="Mobile Number" required>
+                    <label for="email-subject" class="visually-hidden">Email Subject</label>
+                    <input type="text" id="email-subject" name="subject" placeholder="Email Subject" required>
+                </div>
+                <label for="message" class="visually-hidden">Your Message</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+            <div id="form-status"></div>
+        </section>
+
+    <!-- Modal Popup -->
+    <div id="read-more-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div id="modal-body">
+                <!-- Content will be injected here by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer Design -->
+     <footer class="footer">
+        <div class="footer-text">
+            <p>
+                Copyright &copy; 2024 Priyanshu Goyal. | All rights reserved.
+            </p>
+        </div>
+     </footer>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js  -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- EmailJS SDK -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+
+    <!-- Whatsapp Button -->
+    <a href="https://wa.me/+918839246860" class="whatsapp-button" target="_blank">
+        <i class='bx bxl-whatsapp'></i>
+    </a>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+    
+
+</body>
+</html> 
